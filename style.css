@@ -1,0 +1,49 @@
+body {
+    display: flex;
+}
+
+#cadastro {
+    width: 300px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+input {
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+
+input[type=button] {
+    background-color: rgb(146, 146, 221);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#dados {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
